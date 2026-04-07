@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CompMath3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88502de67f092c34962968f3a468464533b5d2a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7dc534a3579e1ecbf1d3bbdf460138211ccffbae")]
 [assembly: System.Reflection.AssemblyProductAttribute("CompMath3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CompMath3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

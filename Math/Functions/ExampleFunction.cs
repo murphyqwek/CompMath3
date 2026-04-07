@@ -53,17 +53,6 @@ namespace CompMath3.Math.Functions
         public override string GetFunctionString() => "f(x) = |x| + 2";
     }
 
-    public class SincFunc : Function
-    {
-        public override EDecimal Calculate(EDecimal x)
-        {
-            double dx = x.ToDouble();
-            return EDecimal.FromDouble(System.Math.Sin(dx) / dx);
-        }
-
-        public override string GetFunctionString() => "f(x) = sin(x) / x";
-    }
-
     public class DivSingularity : Function
     {
         public override EDecimal Calculate(EDecimal x)
@@ -73,6 +62,18 @@ namespace CompMath3.Math.Functions
         }
 
         public override string GetFunctionString() => "f(x) = 1 / x^2";
+    }
+
+    public class InversSqrtSingularity : Function
+    {
+        public override EDecimal Calculate(EDecimal x)
+        {
+            var d = x.Abs().ToDouble();
+
+            return EDecimal.FromDouble(1 / System.Math.Sqrt(d));
+        }
+
+        public override string GetFunctionString() => "f(x) = 1 / sqrt(|x|)";
     }
 
     public class InternalSingularity : Function

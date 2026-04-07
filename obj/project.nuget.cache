@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ddUro25mCeU=",
+  "dgSpecHash": "saAexuFB9cs=",
   "success": true,
-  "projectFilePath": "D:\\Project\\CompMath3\\CompMath3\\CompMath3\\CompMath3.csproj",
+  "projectFilePath": "D:\\CompMath3\\CompMath3\\CompMath3.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\qweka\\.nuget\\packages\\petero.numbers\\1.8.2\\petero.numbers.1.8.2.nupkg.sha512"
+    "C:\\Users\\qweki\\.nuget\\packages\\petero.numbers\\1.8.2\\petero.numbers.1.8.2.nupkg.sha512"
   ],
   "logs": []
 }

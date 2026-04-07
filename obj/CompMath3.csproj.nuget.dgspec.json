@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\CompMath3\\CompMath3\\CompMath3\\CompMath3.csproj": {}
+    "D:\\CompMath3\\CompMath3\\CompMath3.csproj": {}
   },
   "projects": {
-    "D:\\Project\\CompMath3\\CompMath3\\CompMath3\\CompMath3.csproj": {
+    "D:\\CompMath3\\CompMath3\\CompMath3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\CompMath3\\CompMath3\\CompMath3\\CompMath3.csproj",
+        "projectUniqueName": "D:\\CompMath3\\CompMath3\\CompMath3.csproj",
         "projectName": "CompMath3",
-        "projectPath": "D:\\Project\\CompMath3\\CompMath3\\CompMath3\\CompMath3.csproj",
-        "packagesPath": "C:\\Users\\qweka\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\CompMath3\\CompMath3\\CompMath3\\obj\\",
+        "projectPath": "D:\\CompMath3\\CompMath3\\CompMath3.csproj",
+        "packagesPath": "C:\\Users\\qweki\\.nuget\\packages\\",
+        "outputPath": "D:\\CompMath3\\CompMath3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\qweka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\qweki\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

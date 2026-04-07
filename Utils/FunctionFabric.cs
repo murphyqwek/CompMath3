@@ -11,8 +11,8 @@ namespace CompMath3.Utils
             new ExpFunc(),
             new RootFunc(),
             new LinearAbsFunc(),
-            new SincFunc(),
             new DivSingularity(),
+            new InversSqrtSingularity(),
             new InternalSingularity()
         };
 

@@ -272,20 +272,14 @@ namespace CompMath3
                 EDecimal start = sortedPoints[i];
                 EDecimal end = sortedPoints[i + 1];
 
-                Func<EDecimal, EDecimal> getOffset = (val) => {
-                    EDecimal minDelta = EDecimal.FromDouble(1e-11);
-                    EDecimal relativeDelta = val.Abs() * EDecimal.FromDouble(1e-12);
-                    return EDecimal.Max(minDelta, relativeDelta);
-                };
-
                 if (discontinuities.Any(d => (d.X - start).Abs().CompareTo(EDecimal.FromDouble(1e-12)) < 0))
                 {
-                    start = start.Add(getOffset(start));
+                    start = start.Add(GetOffset(start));
                 }
 
                 if (discontinuities.Any(d => (d.X - end).Abs().CompareTo(EDecimal.FromDouble(1e-12)) < 0))
                 {
-                    end = end.Subtract(getOffset(end));
+                    end = end.Subtract(GetOffset(end));
                 }
 
                 if (start.CompareTo(end) < 0)
@@ -302,6 +296,13 @@ namespace CompMath3
             }
 
             return (true, info, intervals);
+        }
+
+        private static EDecimal GetOffset(EDecimal value)
+        {
+            EDecimal minDelta = EDecimal.FromDouble(1e-3);
+            EDecimal relativeDelta = value.Abs().Multiply(EDecimal.FromDouble(1e-8));
+            return EDecimal.Max(minDelta, relativeDelta);
         }
 
 
